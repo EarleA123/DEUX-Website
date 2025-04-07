@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0  ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* some basic styling */
+body {
+    font-family: century;
+    font-size: 1.2rem;
+    background-color:white;
+    
+}
+
+/* -----------------Header--------------- */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: #550216;
+    font-size: 30px;  
+    color: white;
+}
+
+button {
+    border-radius: 15px;
+    font-size: 30px;
+    margin: 20px;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #221006;
+    padding: 15px;
+    color:#550216;        
+}
+
+.SignIn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* -----------------Nav--------------- */
+
+nav {
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav ul li:hover {
+    color: #221006;
+    font-weight: bold;
+}
+
+/* -----------------Main--------------- */
+
+main {
+    margin: auto;
+    width: min(100%, 1000px);
+    font-size: 1.5rem;
+    border: #550216;
+    border-style: solid;
+  }
+
+.Promotions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+  }
+
+.Loyalty{
+    border-style: solid;
+    border-color: #221006;
+    border-width: 0.3rem;
+    margin: 2rem;
+}
+.ButtonLoyalty{
+    border-radius: 15px;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #221006;
+    padding: 5px;
+    color: black;  
+    width: 50%;
+    margin-top: -3%;
+}
+.Gtext {
+    font-size: 2rem;
+    text-align: center;
+    border-style: solid;
+    border-color:#550216;
+    
+    border-radius: 15px;
+}
+.Gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+/* -----------------Footer--------------- */
+footer{
+    background-color: #550216;
+    color: white;
+}
+.Footer1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center; 
+}
+
