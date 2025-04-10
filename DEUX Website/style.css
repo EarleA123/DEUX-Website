@@ -65,6 +65,8 @@ main {
     font-size: 1.5rem;
     border: #550216;
     border-style: solid;
+    border-top: none;
+    border-bottom: none;
   }
 
 .Promotions{
@@ -95,8 +97,8 @@ main {
     text-align: center;
     border-style: solid;
     border-color:#550216;
-    
     border-radius: 15px;
+    color: #550216;
 }
 .Gallery {
     display: grid;
@@ -108,6 +110,9 @@ main {
 footer{
     background-color: #550216;
     color: white;
+    border-top: #550216;
+    border-style: solid;
+    border-width: 5px;
 }
 .Footer1{
     display: grid;
@@ -115,3 +120,33 @@ footer{
     text-align: center; 
 }
 
+
+
+
+/* -----------------Home page--------------- */
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    
+
+}
+.indiv {
+    margin: 10px;
+    border-color: #550216;
+    border-style: solid;
+    
+}
+
+.border {
+    border-bottom: #550216;
+    border-style:dashed;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 150px;
+    margin-left: 70px;
+    margin-top: 10px;
+    
+}
