@@ -26,3 +26,9 @@ Further splitting the first div to ensure space for the logo and social media li
 The middle 'div' consists of an embedded map of the area chosen for the business. Central cambridge within the university disctrict.
 Contact information added using <br> within HTML to format the paragraphs.
 Terms and conditions, copyright statements and privacy policy added to replicate websites.
+
+--- 10.04.2025 ---
+Added links to the social media icons on the template. Using the template I created a copy and called it home page before adding the article section. 
+
+Creating the article section again using the grid template and borders ensuring the page layout is consistent with all other content.
+Changed the hyperlink of the logo to the home page instead of template as this will be the correct hyperlink going forward.
