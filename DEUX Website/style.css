@@ -52,6 +52,10 @@ nav ul {
     gap: 1rem;
 }
 
+nav ul a {
+    color: white;
+}
+
 nav ul li:hover {
     color: #221006;
     font-weight: bold;
