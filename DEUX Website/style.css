@@ -32,8 +32,15 @@ button {
     border-width: 0.3rem;
     border-color: #221006;
     padding: 15px;
-    color:#550216;        
+    color:black;   
 }
+
+button:hover {
+    background-color: #550216;
+    font-weight: bold;
+    color: white;
+}
+
 
 .SignIn {
     display: grid;
@@ -165,12 +172,15 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .BookNow {
     background-color: white;
     color: black;
-    margin-top: 110px;
+    margin-top: 93px;
 }
 
 .BookNow2 {
@@ -178,3 +188,70 @@ footer{
     color: black;
     
 }
+
+.StudentPromotion{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    color: #550216;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Haircut{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+    font-style: italic;
+    color: #550216;
+}
+
+.price{
+    margin: 30px;
+    font-size: 30px;
+}
+
+/* -----------------Booking Form--------------- */
+
+.contactcontainer {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 1px #550216 ;
+  }
+  
+  
+  
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #550216;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color:#550216;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+  }
+
+.BookingFormStatement{
+    text-align: center;
+    color: #550216;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .StudentID{
+    text-align: center;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #550216;
+    border-width: 1px;
+  }
