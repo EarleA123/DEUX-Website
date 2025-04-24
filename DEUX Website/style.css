@@ -50,11 +50,15 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 1rem;
+    color: white;
 }
 
 nav ul a {
     color: white;
+    text-decoration: none;
 }
+
+
 
 nav ul li:hover {
     color: #221006;
@@ -152,5 +156,25 @@ footer{
     width: 150px;
     margin-left: 70px;
     margin-top: 10px;
+    
+}
+
+/* -----------------Booking page--------------- */
+
+.BookingPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.BookNow {
+    background-color: white;
+    color: black;
+    margin-top: 110px;
+}
+
+.BookNow2 {
+    background-color: white;
+    color: black;
     
 }
