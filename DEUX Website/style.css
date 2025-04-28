@@ -22,7 +22,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     text-align: center;
     background-color:#550216;
     font-size: 30px;  
@@ -58,6 +58,7 @@ header {
 
 nav {
     margin: auto;
+    font-size: 40px;
 }
 
 nav ul {
