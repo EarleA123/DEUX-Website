@@ -54,7 +54,7 @@ Started the booking page webpage and adding the hyperlinks to the homepage to ac
 ---24.04.2025 ---
 Finalized the webpages adding comments to the code and seperating the code to ensure its easily readable.
 
-Within the assignment it is required to ensure semantic HTML5 tags are used. regarding this i had used to HTML5 tags but had used <div> alot to break down the website. Although this worked it is complying with the assignment so i went back over the code and changed some <dvi> tags to ensure the code is seperated correctly. Adding <section>, <h2>, <h3> and <article> tags to the correct areas complying with the assignment requirements.
+Within the assignment it is required to ensure semantic HTML5 tags are used. regarding this i had used to HTML5 tags but had used 'div' alot to break down the website. Although this worked it is complying with the assignment so i went back over the code and changed some 'dvi' tags to ensure the code is seperated correctly. Adding 'section', 'h2', 'h3' and 'article' tags to the correct areas complying with the assignment requirements.
 
 Created a 'falsePage' to use as links for all the elements that would take the user to a different page. The page used has a statement that will direct the user into the correct area of the page to be marked. This just ensures that all links would work correctly if the corresponding webpages were created and if a link was clicked that doesnt have a webpage the user will be directed to the correct part of the website.
 
