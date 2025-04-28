@@ -12,6 +12,11 @@ body {
     background-color:white;
     
 }
+/* To divide the pages into sections alot of the CSS is using grid display and then splitting them into section using grid template colums */
+/* This keeps structure to the webpage and using grid layout consistently keeps the code tidy and readable. */
+
+/* Classes are used throughout the HTML and CSS to help style certain parts of the code. Using classes its easy to understand what part of the HTML is being styled by the CSS */
+/* .btn is an example of the class being styled */
 
 /* -----------------Header--------------- */
 
@@ -19,12 +24,12 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    background-color: #550216;
+    background-color:#550216;
     font-size: 30px;  
     color: white;
 }
 
-button {
+.btn {
     border-radius: 15px;
     font-size: 30px;
     margin: 20px;
@@ -32,13 +37,15 @@ button {
     border-width: 0.3rem;
     border-color: #221006;
     padding: 15px;
-    color:black;   
+    color:black;
+    text-decoration: none;
+    background-color: white; 
 }
-
-button:hover {
-    background-color: #550216;
+/* :hover styles the element when the user hovers over it, this provides a visual aspect that it can be clicked. */
+.btn:hover {
+    background-color:#221006;
     font-weight: bold;
-    color: white;
+    color:  white;
 }
 
 
@@ -102,23 +109,40 @@ main {
     border-style: solid;
     border-width: 0.3rem;
     border-color: #221006;
-    padding: 5px;
     color: black;  
     width: 50%;
     margin-top: -3%;
+    margin-bottom: 5%;
+    padding: 5px;
+    background-color: white;
 }
+.ButtonLoyalty:hover{
+    background-color: #221006;
+    color: white;
+    font-weight: bold;
+}
+
 .Gtext {
     font-size: 2rem;
     text-align: center;
     border-style: solid;
     border-color:#550216;
     border-radius: 15px;
-    color: #550216;
+    color:#550216;
+    font-weight:lighter;
 }
-.Gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+
+
+/*VScode is telling me theres something wrong with h2 again but it seems to be working as intended. */
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+
 }
 
 /* -----------------Footer--------------- */
@@ -136,10 +160,15 @@ footer{
 }
 
 
-
+/* After styling the template and ensuring the basics of the page are working i have split the code for each individual page for its own content. */
 
 /* -----------------Home page--------------- */
 
+.Gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
 .articles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -176,17 +205,11 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
 }
-
+/* Styling for the button within the 'haircut' box on the booking page, this is to ensure the element sits at the bottom of the box and make it visually better. */
 .BookNow {
     background-color: white;
     color: black;
     margin-top: 93px;
-}
-
-.BookNow2 {
-    background-color: white;
-    color: black;
-    
 }
 
 .StudentPromotion{
@@ -211,6 +234,25 @@ footer{
     font-size: 30px;
 }
 
+button {
+    border-radius: 15px;
+    font-size: 30px;
+    margin: 20px;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: #221006;
+    padding: 15px;
+    color:black;
+    text-decoration: none;
+    background-color: white; 
+}
+
+button:hover {
+    background-color:#221006;
+    font-weight: bold;
+    color:  white;
+}
+
 /* -----------------Booking Form--------------- */
 
 .contactcontainer {
@@ -222,10 +264,7 @@ footer{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: solid 1px #550216 ;
   }
-  
-  
-  
-  
+    
   input, textarea {
     width: 100%;
     padding: 10px;
@@ -255,3 +294,4 @@ footer{
     border-color: #550216;
     border-width: 1px;
   }
+
